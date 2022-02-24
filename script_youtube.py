@@ -12,7 +12,7 @@ def test(x):
 if sys.version[0] != '3':
     exit('run in python3')
 
-test('✪ welcome to my tool ✪')
+test('✪ welcome to my tool ✪ hhhhhhhhhhhhhhhhhhhh')
 ip = requests.get('https://api.ipify.org/').text.strip()
 #print(f'Your IP : {ip}')
 
