@@ -33,7 +33,7 @@ if choose == '1':
     os.system('clear')
     os.system('python script_youtube.py')
 elif choose == '2':
-    os.system('git pull')
+    os.system('git pull https://github.com/python-life/script')
 elif choose == '0':
     sys.exit()
 else:
